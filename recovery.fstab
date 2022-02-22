@@ -1,0 +1,9 @@
+# mount point       fstype    device                                                                flags
+/system             ext4      /dev/block/platform/jzmmc_v1.2.0/by-name/system                       flags=display="System";backup=1;
+/system_image       emmc      /dev/block/platform/jzmmc_v1.2.0/by-name/system                       flags=display="System image";backup=1;flashimg=1;
+/data               ext4      /dev/block/platform/jzmmc_v1.2.0/by-name/data                         flags=display="Data";
+/cache              ext4      /dev/block/platform/jzmmc_v1.2.0/by-name/cache                        flags=display="Cache";
+/misc               emmc      /dev/block/platform/jzmmc_v1.2.0/by-name/misc                         flags=display="Misc";backup=1;flashimg=1;
+/boot               emmc      /dev/block/platform/jzmmc_v1.2.0/by-name/boot                         flags=display="Boot";backup=1;flashimg=1;
+/recovery           emmc      /dev/block/platform/jzmmc_v1.2.0/by-name/recovery                     flags=display="Recovery";backup=1;flashimg=1;
+/uboot              emmc      /dev/block/mmcblk0                                                    flags=display="Uboot";
